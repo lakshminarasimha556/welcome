@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>registration form</title>
+    <style>
+        body{background-color: cadetblue;
+            font-size: 28px; }
+        button{font-size: 15px;}
+        legend{
+            margin-left: 45%;
+            }
+            .wel{
+              margin-left: 25%;
+            }
+    </style>
+</head>
+<body >
+    <h1 style="text-align: center;"><b> <mark style="color: blue;">ISTE registrationform</mark></b></h1>
+  <div class="wel"> 
+    <form >
+        <fieldset style="height: 11cm; width: 20cm;"> 
+            <legend ><b><i>FORM</i></b></legend>
+        <label for="roll">Rollno:</label>
+        <input type="number" required id="roll" > <br><br>
+        <label for="email"> Email:&nbsp</label>
+        <input type="email" required id="email"><br><br>
+        <label for="phone no">Phoneno:</label>
+        <input type="phone no"required id="phoneno"><br><br>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value=" "></option>
+            <option value="Men">Men</option>
+            <option value="Women">Women</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+        <label for="DOB">DOB:&nbsp&nbsp</label>
+        <input type="DOB" required id="DOB"><br><br>
+        <label for="branch">Branch:</label>
+        <select branch="name">
+            <option value=" "></option>
+            <option value="cse">cse</option>
+            <option value="cse">EEE</option>
+            <option value="cse">ai</option>
+            <option value="cse">cyber security</option>
+            <option value="cse">mech</option>
+        </select> <br>
+        <input type="submit"value=submit>
+       <button type="button"onclick="alert('Thank you')">next</button>
+    </fieldset>
+    </form>
+</div> 
+</body>
+</html>
