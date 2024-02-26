@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        body{background-color: rgb(22, 20, 27);}
+        h2{ text-align: center}
+        legend{
+            margin-left: 260px;
+        }
+        h2{
+            font-family: sans-serif;
+            color: aqua;
+        }
+        form{
+            color: rgb(230, 214, 214);
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form style="margin-left: 25%;" >
+    <fieldset style=" height: 19cm; width: 20cm;">
+        <legend><h3>Registration Details</h3></legend>
+    
+            <div>
+        <label for="">first name:</label>
+        <input type="text" placeholder="your first name">
+        <br><br>
+        <label for="">middle name:</label>
+        <input type="text" placeholder="your middle name">
+        <br><br>
+        <label for="">last name:</label>
+        <input type="text" placeholder="your last name">
+        <br><br>
+        <label for="">email:</label>
+        <input type="email" required><br><br>
+        <label for="">password:</label>
+        <input type="password">
+        <br> <br> 
+        <label for="">phone no:</label>
+        <input type="number" required><br><br>
+        <label for="">DOB:</label>
+        <input type="date">
+        <br><br>
+        <label for="">present address:</label>
+        <input type="address" required><br><br>
+        <label for="">native address:</label> 
+        <input type="address">
+        <br><br>
+        <label for="">qualifications:</label>
+        <select >
+            <option value="">choose</option>
+            <option value="B-Tech">B-tech</option>
+            <option value="Degree">Degree</option>
+            <option value="other">other</option>
+        </select><br><br>
+        <label for="">gender:</label><br>
+        <input type="radio" name="a">male
+        <input type="radio" name="a">female
+        <input type="radio" name="a">other
+        <br><br>
+        <label for="">upload certificates:</label>
+        <br>
+        <label for="">10th marks memo:</label>
+        <input type="file">
+        <br><br>
+        <label for="">Inter marks memo:</label>
+        <input type="file">
+        <br><br>
+        <input type="checkbox">accept all details
+        <br><br>
+        <input type="submit" value="submit">&nbsp;&nbsp;
+        <input type="reset" value="cancel">
+            <div>
+            </fieldset>
+    </form>
+</body>
+</html>
